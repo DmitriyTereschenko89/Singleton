@@ -1,6 +1,6 @@
 ﻿namespace Patterns
 {
-	public class SingletonUsingLock
+	public sealed class SingletonUsingLock
 	{
 		private static SingletonUsingLock? instance;
 		private static readonly object lockThread = new();

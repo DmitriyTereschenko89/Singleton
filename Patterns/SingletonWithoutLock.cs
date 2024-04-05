@@ -1,6 +1,6 @@
 ﻿namespace Patterns
 {
-	public class SingletonWithoutLock
+	public sealed class SingletonWithoutLock
 	{
 		private static readonly SingletonWithoutLock instance = new();
 		static SingletonWithoutLock() { }
